@@ -20,15 +20,15 @@ int main(void)
 	n = str(n);
 	if (n[-1] > 5)
 	{
-		printf("Last digit of %d is %s and is greater than 5\n", n, n[-1]);
+		printf("Last digit of %d is %s and is greater than 5\n", n, n[-2]);
 	}
 	else if (n[-1] < 6 && n[-1] != 0)
 	{
-		printf("Last digit of %d is %s and is less than 6 and not 0\n", n, n[-1]);
+		printf("Last digit of %d is %s and is less than 6 and not 0\n", n, n[-2]);
 	}
 	else
 	{
-		printf("Last digit of %d is %s and is 0\n", n, n[-1]);
+		printf("Last digit of %d is %s and is 0\n", n, n[-2]);
 	}
 	return (0);
 }
