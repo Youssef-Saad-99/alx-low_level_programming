@@ -9,8 +9,9 @@
 int main(void)
 {
 	char ch = 'a';
+	int n = 122;
 
-	while (ch <= 'z')
+	while (ch <= 122)
 	{
 		putchar(ch);
 		putchar('\n');
