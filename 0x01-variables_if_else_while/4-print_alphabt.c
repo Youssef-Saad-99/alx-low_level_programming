@@ -17,12 +17,12 @@ int main(void)
 		if (ch != 'e' || ch != 'q')
 		{
 			putchar(ch);
-			ch++;
 		}
 		else
 		{
 			continue;
 		}
+		ch++;
 	}
 	putchar('\n');
 	return (0);
