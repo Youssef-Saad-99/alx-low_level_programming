@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	int n = 0;
+	int digit = 0;
 
-	while (n <= 9)
+	while (digit <= 9)
 	{
-		printf(n);
-		n++;
+		printf("%d", digit);
+		digit++;
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
