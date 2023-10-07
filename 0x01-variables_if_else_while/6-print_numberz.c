@@ -3,18 +3,18 @@
 /**
  * main - Entry point
  *
- * Description: print all digit from 0 with putchar function
+ * Description: print 0-9 with putchar while using int variable
  *
  * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	string digit = 0;
+	int digit = 0;
 
 	while (digit <= 9)
 	{
-		putchar(digit);
+		putchar(digit + '0');
 		digit++;
 	}
 	putchar('\n');
