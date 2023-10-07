@@ -11,7 +11,7 @@ int main(void)
 	char ch = 'a';
 	int n = 122;
 
-	while (ch <= 122)
+	while (ch <= n)
 	{
 		putchar(ch);
 		putchar('\n');
