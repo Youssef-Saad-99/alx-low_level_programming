@@ -39,7 +39,7 @@ int main(void)
 	for (count = 1; count <= 98; count++)
 	{
 		if (f1o > 0)
-			printf("%lu", f1o;
+			printf("%lu", f1o);
 		in = Length(mx) - 1 - Length(f1);
 
 		while (f1o > 0 && in > 0)
