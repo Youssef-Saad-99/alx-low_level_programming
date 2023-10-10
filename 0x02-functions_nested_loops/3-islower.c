@@ -6,10 +6,10 @@
  *
  * Description: A function that checks for lowercase character
  *
- * 0c: checks input of function
+ * @c: checks input of function
  *
  * Return: returns 1 if 'c' is lowercase
- * 	otherwise always 0 (Success)
+ *	otherwise always 0 (Success)
 */
 
 int _islower(int c)
