@@ -5,7 +5,9 @@
  *
  * Description: A function that checks for alphabetic character
  *
- * Return: Always 0 (Success)
+ * @c: takes input from other functions
+ *
+ * Return: 1 is c if true else 0
 */
 
 int _isalpha(int c)
