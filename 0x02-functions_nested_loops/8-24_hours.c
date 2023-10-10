@@ -17,11 +17,11 @@ void jack_bauer(void)
 		sec = 0;
 		while (sec <= 59)
 		{
-			_puchar((min / 10) + 48);
-			_puchar((min % 10) + 48);
+			_putchar((min / 10) + 48);
+			_putchar((min % 10) + 48);
 			_putchar(':');
-			_puchar((sec / 10) + 48);
-			_puchar((sec % 10) + 48);
+			_putchar((sec / 10) + 48);
+			_putchar((sec % 10) + 48);
 			_putchar('\n');
 			sec++;
 		}
