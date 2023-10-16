@@ -9,22 +9,15 @@
 
 void print_rev(char *s)
 {
-	if (!s)
-	{
-		return;
-	}
-	int i;
-	int j = _strlen(s) - 1;
+	int i = 0;
 
-	i = 0;
-	while (i < j)
+	while (s[i])
 	{
-		char c = s[i];
-
-		s[i] = s[j];
-		s[j] = c;
 		i++;
-		j--;
 	}
-	printf("%s\n", s);
+	while (i--)
+	{
+		_putchar(s[i]);
+	}
+	_putchar('\n');
 }
