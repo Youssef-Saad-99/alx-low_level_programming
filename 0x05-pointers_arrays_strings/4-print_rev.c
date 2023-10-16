@@ -13,9 +13,10 @@ void print_rev(char *s)
 	{
 		return;
 	}
-	int i = 0;
+	int i;
 	int j = _strlen(s) - 1;
 
+	i = 0;
 	while (i < j)
 	{
 		char c = s[i];
