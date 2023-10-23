@@ -23,7 +23,7 @@ char *_strpbrk(char *s, char *accept)
 			if (accept[j] == s[i])
 			{
 				n = &s[i];
-				return (p);
+				return (n);
 			}
 			j++;
 		}
