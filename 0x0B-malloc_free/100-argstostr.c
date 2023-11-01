@@ -47,3 +47,4 @@ str[index - 1] = '\0';
 return (str);
 }
 }
+
