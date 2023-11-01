@@ -21,7 +21,7 @@ if (width <= 0 || height <= 0)
 return ('\0');
 }
 
-int **grid = malloc(height * sizeof(int *));
+int **grid = malloc(height * sizeof(int));
 
 if (grid == NULL)
 {
@@ -34,7 +34,7 @@ grid[i] = malloc(width * sizeof(int));
 
 if (grid[i] == NULL)
 {
-for (int j = 0; j < i; ++j)
+for (j = 0; j < i; ++j)
 {
 free(grid[j]);
 }
