@@ -60,9 +60,9 @@ m[i] = s1[i];
 }
 else
 {
-m[i] = s2[i - size];
+m[i] = s2[i - size1];
 }
-m[i] = '\0'
+m[i] = '\0';
 return (m);
 }
 }
