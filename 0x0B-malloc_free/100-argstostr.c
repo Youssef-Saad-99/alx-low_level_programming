@@ -21,7 +21,8 @@ if (ac == 0 || av == NULL)
 return ('\0');
 }
 
-int length = 0;
+int length;
+length = 0;
 
 for (i = 0; i < ac; ++i)
 {
@@ -35,9 +36,10 @@ if (str == NULL)
 return ('\0');
 }
 
-int index = 0;
+int index;
+index = 0;
 
-for (int i = 0; i < ac; ++i)
+for (i = 0; i < ac; ++i)
 {
 strcat(str + index, av[i]);
 index += strlen(av[i]);
