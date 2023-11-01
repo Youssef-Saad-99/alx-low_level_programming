@@ -35,11 +35,11 @@ char *str_concat(char *s1, char *s2)
 int size1, size2, i;
 char *m;
 
-if (s1 == '\0')
+if (*s1 == '\0')
 {
 s1 = '\0';
 }
-if (s2 == '\0')
+if (*s2 == '\0')
 {
 s2 = '\0';
 }
