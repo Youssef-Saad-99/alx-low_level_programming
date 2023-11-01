@@ -12,9 +12,9 @@
 
 int _strlen(char *s)
 {
-int size = 0;
+int size;
 
-for (; s[size] != '\0'; size--)
+for (size = 0; s[size] != '\0'; size--)
 ;
 return (size);
 }
@@ -35,13 +35,13 @@ char *str_concat(char *s1, char *s2)
 int size1, size2, i;
 char *m;
 
-if (s1 == NULL)
+if (s1 == '\0')
 {
-s1 = "\0";
+s1 = '\0';
 }
-if (s2 == NULL)
+if (s2 == '\0')
 {
-s2 = "\0";
+s2 = '\0';
 }
 
 size1 = _strlen(s1);
