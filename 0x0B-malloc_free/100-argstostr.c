@@ -43,8 +43,9 @@ for (i = 0; i < ac; ++i)
 strcat(str + index, av[i]);
 index += strlen(av[i]);
 str[index++] = '\n';
+}
 str[index - 1] = '\0';
 return (str);
-}
+
 }
 
