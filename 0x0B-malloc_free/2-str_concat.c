@@ -35,11 +35,11 @@ char *str_concat(char *s1, char *s2)
 int size1, size2, i;
 char *m;
 
-if (*s1 == NULL)
+if (s1 == NULL)
 {
 s1 = "\0";
 }
-if (*s2 == NULL)
+if (s2 == NULL)
 {
 s2 = "\0";
 }
