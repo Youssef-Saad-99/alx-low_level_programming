@@ -8,7 +8,7 @@
  * @age: integer input
  * @owner: char input
  *
- * Return: void
+ * Return: void.
 */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
