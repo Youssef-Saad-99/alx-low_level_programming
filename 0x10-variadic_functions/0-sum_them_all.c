@@ -7,21 +7,21 @@
  * @...: the intefers to sum
  *
  * Return: the integer sum
- */
+*/
 
 int sum_them_all(const unsigned int n, ...)
 {
+	va_list a;
 	int s, i;
 
 	s = 0;
 	i = n;
-	va_list ap;
 
 	if (!n)
 		return (0);
-	va_start(ap, n);
+	va_start(a, n);
 	while (i--)
-		s += va_arg(ap, int);
-	va_end(ap);
+		s = s + va_arg(a, int);
+	va_end(a);
 	return (s);
 }
