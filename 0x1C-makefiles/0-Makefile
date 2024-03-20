@@ -1,6 +1,2 @@
-all:
-<<<<<<< HEAD
+all: main.c school.c
 	gcc main.c school.c -o school
-=======
-    gcc main.c school.c -o school
->>>>>>> e16cc7fe51a41838acdfcf1510fce5aa81086ee7
